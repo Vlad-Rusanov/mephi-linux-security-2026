@@ -1,0 +1,313 @@
+    1  code .
+    2  vim
+    3  gcc -pthread -Wall -Wextra -O2 -o osrv_1 osrv_1.c
+    4  sudo apt install gcc
+    5  gcc -pthread -Wall -Wextra -O2 -o osrv_1 osrv_1.c
+    6  sudo apt-get clean
+    7  sudo apt-get update
+    8  sudo apt-get install build-essential gcc g++ make
+    9  gcc -pthread -Wall -Wextra -O2 -o osrv_1 osrv_1.c
+   10  ./otp -i plaintext.txt -o ciphertext.bin -x 4212 -a 84589 -c 45989 -m 217728
+   11  ./osrv_1 -i plaintext.txt -o ciphertext.bin -x 4212 -a 84589 -c 45989 -m 217728
+   12  ./osrv_1.c -i plaintext.txt -o ciphertext.bin -x 4212 -a 84589 -c 45989 -m 217728
+   13  diff plaintext.txt decrypted.txt && echo "SUCCESS: files match"
+   14  # или через контрольные суммы:
+   15  md5sum plaintext.txt decrypted.txt
+   16  ls
+   17  vim osrv_1.c
+   18  ls
+   19  vim osrv_2.c
+   20  ls
+   21  rm osrv_2.c
+   22  rm osrv_1
+   23  ls
+   24  rm osrvlab_1
+   25  ls
+   26  vim osrv_1.c
+   27  vim client.cpp
+   28  mkdir osrv_2
+   29  ls
+   30  cd osrv_2
+   31  ls
+   32  vim server.cpp
+   33  ls
+   34  vim server.cpp
+   35  ls
+   36  vim client.cpp
+   37  ls
+   38  vim common.h
+   39  vim makefile
+   40  ls
+   41  vim makefile
+   42  ls
+   43  rm server.cpp
+   44  rm client.cpp
+   45  rm common.h
+   46  ls
+   47  vim server.cpp
+   48  vim client.cpp
+   49  ls
+   50  make
+   51  vim makefile
+   52  make
+   53  ls
+   54  vim makefile
+   55  vim server.cpp
+   56  make
+   57  make test
+   58  vim client.cpp
+   59  vim server.cpp
+   60  vim makefile
+   61  make
+   62  make test
+   63  ls
+   64  vim osrv_1.c
+   65  gcc -pthread -Wall -Wextra -O2 -o osrv_1 osrv_1.c
+   66  ./osrv_1 -i plaintext.txt -o ciphertext.bin -x 4212 -a 84589 -c 45989 -m 217728
+   67  vim osrv_1.c
+   68  ./osrv_1 -i plaintext.txt -o ciphertext.bin -x 4212 -a 84589 -c 45989 -m 217728
+   69  vim osrv_1.c
+   70  ls
+   71  rm osrv_1
+   72  vim osrv_1
+   73  ls
+   74  vim osrv_1.c
+   75  ls
+   76  vim osrv_1.c
+   77  ls
+   78  vim osrv_1.c
+   79  la
+   80  ls
+   81  vim osrv_1.c
+   82  lls
+   83  ls
+   84  vim osrv_1.c
+   85  ls
+   86  vim oscrv_1.c
+   87  vim osrv_1.c
+   88  ls
+   89  ls osrv_2
+   90  rm osrv_1.c
+   91  rm osrv_2
+   92  rmdir osrv_2
+   93  ls
+   94  cd osrv_2
+   95  ls
+   96  rm client
+   97  rm client.cpp
+   98  rm makefile
+   99  rm server
+  100  rm server.cpp
+  101  ls
+  102  cd
+  103  rmdir osrv_2
+  104  ls
+  105  mkdir osrv_1
+  106  mkdir osrv_2
+  107  ls
+  108  cd osrv_1
+  109  ls
+  110  vim otp
+  111  ls
+  112  rm otp
+  113  vim otp.c
+  114  ls
+  115  vim otp.c
+  116  ls
+  117  mkdir osrv_2
+  118  ls
+  119  rm osrv_2
+  120  rmdir osrv_2
+  121  ls
+  122  cd
+  123  mkdir osrv_2
+  124  ls
+  125  cd osrv_2
+  126  vim client.cpp
+  127  vim server.cpp
+  128  vim CMakeLists.txt
+  129  ls
+  130  mkdir build
+  131  cd build
+  132  rmdir build
+  133  ls
+  134  cd
+  135  rmdir build
+  136  ls'
+  137  ls
+  138  cd osrv_2
+  139  ls
+  140  rmdir build
+  141  ls
+  142  cd
+  143  ls
+  144  cd osrv_2
+  145  ls
+  146  mkdir build
+  147  ls
+  148  cd build
+  149  cd
+  150  rmdir build
+  151  ls
+  152  cd osrv_2
+  153  ls
+  154  rmdir build
+  155  ./build
+  156  ls
+  157  cd osrv_2
+  158  cd build
+  159  ./client
+  160  cd osrv_2
+  161  cd buildcd build
+  162  cd build
+  163  ./client 2
+  164  ды
+  165  ls
+  166  cd osrv_2
+  167  ls
+  168  mkdir build
+  169  ls
+  170  cd build
+  171  cmake
+  172  make ..
+  173  ./cmake
+  174  make
+  175  sudo apt install cmake
+  176  ls
+  177  make
+  178  cd
+  179  make
+  180  cd build
+  181  cmake
+  182  ls
+  183  cd osrv_2
+  184  ls
+  185  cmake
+  186  make
+  187  cmake ..
+  188  ls
+  189  cd build
+  190  cmake ..
+  191  cd
+  192  vim CMakeLists.txt
+  193  ls
+  194  cd osrv_2
+  195  vim CMakeLists.txt
+  196  cd build
+  197  cmake ..
+  198  cd
+  199  cd osrv_2
+  200  vim CMakeLists.txt
+  201  cd build
+  202  cmake ..
+  203  make
+  204  cd
+  205  cd osrv_2
+  206  ls
+  207  vim client.cpp
+  208  vim server.cpp
+  209  cd build
+  210  cd ..
+  211  cd build
+  212  cmake ..
+  213  make
+  214  ./server.cpp
+  215  ls
+  216  ./server
+  217  cd ..
+  218  vim server.cpp
+  219  ls
+  220  cd osrv_1
+  221  ls
+  222  vim input.txt
+  223  ls
+  224  ./otp -i input.txt -o output.txt -x 12345 -a 1664525 -c 1013904223 -m 4294967296
+  225  ./otp.c -i input.txt -o output.txt -x 12345 -a 1664525 -c 1013904223 -m 4294967296
+  226  gcc otp.c otp
+  227  vim otp.c
+  228  gcc otp.c otp
+  229  ls
+  230  gcc -o otp otp.c -lpthread -lm
+  231  ./otp -i input.txt -o output.txt -x 12345 -a 1664525 -c 1013904223 -m 4294967296
+  232  vim output.txt
+  233  ls
+  234  cd osrv_2
+  235  ls
+  236  cd build
+  237  ./client
+  238  ls
+  239  cd osrv_1
+  240  ls
+  241  vim otp.c
+  242  cd
+  243  cd osrv_2
+  244  ls
+  245  vim server.cpp
+  246  cd build
+  247  ./server
+  248  ls
+  249  cd osrv_2
+  250  ls
+  251  vim server.cpp
+  252  cd ~
+  253  pwd
+  254  sudo -i
+  255  cd ~
+  256  pwd
+  257  sudo -i
+  258  cd ~
+  259  sudo apt update
+  260  sudo apt install libcap2-bin -y
+  261  sudo groupadd students
+  262  sudo useradd -u 1234 -G students user1
+  263  sudo passwd user1
+  264  sudo chage -M 90 user1
+  265  id user1
+  266  chage -l user1
+  267  sudo chage -l user1
+  268  sudo find /usr /bin /sbin -perm -4000 -type f 2>/dev/null > ~/suid_files.out
+  269  su - user -c "passwd" &
+  270  grep user1 /etc/passwd
+  271  ls -ld /home/user1
+  272  sudo mkdir -p /home/user1
+  273  sudo chown 1234:1234 /home/user1
+  274  sudo chmod 755 /home/user1
+  275  su -user1 -c "passwd" &
+  276  su - user1 -c "passwd" &
+  277  sleep 2
+  278  ps -eo ruid,euid,pid,cmd | awk '$1 != 0 && $2 == 0' > ~/privileged_procs.out
+  279  cat ~/privileged_procs.out
+  280  kill %1 2>/dev/null
+  281  sudo cp /bin/cat /home/user1/my_cat
+  282  sudo chown root:root /home/user1/my_cat
+  283  sudo chmod 4755 /home/user1/my_cat
+  284  ls -l /home/user1/my_cay
+  285  ls -l /home/user1/my_cat
+  286  su - user1 -c "/home/user1/my_cat /etc/shadow"
+  287  sudo touch /home/user1/testfile.txt
+  288  sudo chown user1:user1 /home/user1/testfile.txt
+  289  ls -l /home/user1/testfile.txt
+  290  sudo cp /bin/chown /home/user1/my_chown
+  291  sudo chown root:root /home/user1/my_chown
+  292  sudo setcap cap_chown=ep /home/user1/my_chown
+  293  getcap /home/user1/my_chown
+  294  su - user1 -c "home/user1/my_chown root:root /home/user1/testfile.txt
+
+ls -l /home/user1/testfile.txt
+
+  295  su - user1 -c "/home/user1/my_chown root:root /home/user1/testfile.txt"
+  296  ls -l /home/user1/testfile.txt
+  297  echo "user1 ALL=(ALL) NOPASSWD: /bin/date, /usr/bin/timedatectl" | sudo tee /etc/sudoerc.d/user1_time
+  298  sudo chmod 440 /etc/sudoerc.d/user1_time
+  299  which sudo
+  300  sudo mkdir -p /etc/sudoers.d
+  301  sudo chmod 750 /etc/sudoers.d
+  302  echo "user1 ALL=(ALL) NOPASSWD: /bin/date, /usr/bin/timedatectl" | sudo tee /etc/sudoerc.d/user1_time
+  303  ls -la /etc/sudoers*
+  304  sudo bash -c "echo 'user1 ALL=(ALL) NOPASSWD: /bin/date, /usr/bin/timedatectl' > /etc/sudoers.d/user1_time"
+  305  sudo chmod 440 /etc/sudoers.d/user1_time
+  306  sudo ls -la /etc/sudoers.d/
+  307  sudo cat /etc/sudoers.d/user1_time
+  308  sudo visudo -cf /etc/sudoers.d/user1_time
+  309  sudo -u user1 sudo date
+  310  history > ~/history.out

@@ -1,0 +1,15 @@
+/usr/bin/chfn
+/usr/bin/sudo
+/usr/bin/newgrp
+/usr/bin/gpasswd
+/usr/bin/passwd
+/usr/bin/chsh
+/usr/bin/umount
+/usr/bin/su
+/usr/bin/fusermount3
+/usr/bin/mount
+/usr/lib/landscape/apt-update
+/usr/lib/openssh/ssh-keysign
+/usr/lib/snapd/snap-confine
+/usr/lib/dbus-1.0/dbus-daemon-launch-helper
+/usr/lib/polkit-1/polkit-agent-helper-1
